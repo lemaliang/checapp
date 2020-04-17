@@ -9,7 +9,7 @@ body{
 }
 
 .flex_container{
-    width: 414px;
+    width: 400px;
     height: 896px;
     display: flex;
     align-items: center;
