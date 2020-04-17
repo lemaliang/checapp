@@ -5,7 +5,7 @@ body{
 }
 .logo{
     margin-top: 25px;
-    margin-left: 25px;
+    text-align: center;
 }
 
 .flex_container{
@@ -16,9 +16,14 @@ body{
     flex-direction: column;
 }
 .on1{
-    height: 105px;
-    background: #2684B9;
+    height: 100px;
     width: 100%;
+    color: #2684B9;
+    font-weight: bold;
+}
+.zh{
+    width: 180px;
+    text-align: center;
 }
 .on2{
     padding-top: 45px;
