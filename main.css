@@ -9,7 +9,7 @@ body{
 }
 
 .flex_container{
-    width: 400px;
+    width: 380px;
     height: 896px;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@ h1{
     text-align: left;
 }
 .exproBtn{
-    width: 378px;
+    width: 350px;
     height: 82px;
     background: #ABE1F2;
     border-radius: 7px;
