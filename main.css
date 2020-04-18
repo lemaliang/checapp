@@ -170,13 +170,55 @@ h1{
     margin: 6px 0px 0px 0px 0px;
 }
 .cantExp{
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 12px;
-    line-height: 14px;
     padding: 0;
     margin-top:  -10px;
 
     color: #574949;
 }
+
+.listContainer{
+    display: flex;
+}
+
+ol li { 
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc ;
+    color: #7D6363;
+    width: 300px;
+    margin-left: -25px;
+}
+ul li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc ;
+    color: #7D6363;
+    width: 60px;
+    margin-left: -25px; 
+    list-style: none;
+    text-align: right;
+    margin-bottom: 8px;
+}
+ol li::after{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    background-color: #ccc;
+    border-radius: 5px;
+    z-index: -100;
+    margin-left: -65px;
+    padding: 7px;
+    margin-top: -5px;
+
+}
+
